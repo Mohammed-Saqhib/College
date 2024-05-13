@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayananda Sagar University</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        nav {
+            background-color: #004080;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .news-item {
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;    
+        }
+        
+        /* Marquee Styles */
+        .marquee-container {
+            overflow: hidden;
+            background-color: #ffcc00;
+            padding: 10px 0;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 20s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dayananda Sagar University</h1>
+        <!-- Marquee Section -->
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <p>Admissions are now open for all Undergraduate and Postgraduate programs. Apply now!</p>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Welcome to Dayananda Sagar University</h2>
+            <p>Dayananda Sagar University offers a vibrant learning environment where students are encouraged to excel academically, engage in cutting-edge research, and contribute meaningfully to society.</p>
+            <p>With our distinguished faculty, state-of-the-art facilities, and diverse community, we foster intellectual growth, creativity, and leadership skills among our students.</p>
+            <p>Explore our wide range of programs, connect with our dynamic community, and embark on an enriching educational journey with us.</p>
+            <p>We eagerly await your presence on our campus!</p>
+        </section>
+        <section>
+            <h2>Latest News</h2>
+            <div class="news-item">
+                <h3>New Engineering Lab</h3>
+                <p>Our newly inaugurated Engineering Lab is set to enhance hands-on learning experiences for students.</p>
+            </div>
+            <div class="news-item">
+                <h3>Career Fair for MBA Students</h3>
+                <p>Join us for our upcoming Career Fair exclusively designed for MBA students. Explore exciting job opportunities and internships!</p>
+            </div>
+            <div class="news-item">
+                <h3>Annual Cultural Fest</h3>
+                <p>Save the date for our Annual Cultural Fest! Get ready for a week-long celebration of music, dance, and art.</p>
+            </div>
+            <div class="news-item">
+                <h3>Inter-University Basketball Tournament</h3>
+                <p>Cheer for our university team as they compete in the upcoming Inter-University Basketball Tournament. Go team!</p>
+            </div>
+        </section>
+        <section>
+            <h2>Events</h2>
+            <p>Stay updated with our upcoming events:</p>
+            <ul>
+                <li>March 15 - Career Fair</li>
+                <li>April 10 - Spring Festival</li>
+                <li>May 5 - Annual Alumni Reunion</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dayananda Sagar University. All rights reserved.</p>
+    </footer>
+</body>
+</html>
